@@ -1,2 +1,2 @@
-# drag-ruler-integration-for-rqg
-drag-ruler-integration-for-rqg
+# rqg-drag-ruler-integration
+This module just adds a RuneQuest Glorantha speed provider
