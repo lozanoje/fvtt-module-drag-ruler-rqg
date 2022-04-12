@@ -3,8 +3,8 @@
   "title": "Drag Ruler Integration for RuneQuest Glorantha",
   "description": "Supports movement speeds for RQG",
   "version": "1.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion":"9",
+  "minimumCoreVersion" : "9.238",
+  "compatibleCoreVersion":"9.266",
   "author": "José E. Lozano (Viriato139ac), Geike",
   "scripts": [
     "scripts/hookSpeedProvider.js"
