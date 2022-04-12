@@ -27,5 +27,5 @@ Hooks.once("dragRuler.ready", (SpeedProvider) => {
             return ranges;
         };
     }
-    dragRuler.registerModule("rqg-drag-ruler-integration", rqgSpeedProvider);
+    dragRuler.registerModule("fvtt-module-drag-ruler-rqg", rqgSpeedProvider);
 })
