@@ -1,8 +1,8 @@
 {
   "name": "fvtt-module-drag-ruler-rqg",
-  "title": "Drag Ruler Integration for RuneQuest Glorantha",
-  "description": "Supports movement speeds for RQG",
-  "version": "1.0",
+  "title": "RuneQuest Glorantha - Drag Ruler Integration",
+  "description": "Drag Ruler Integration for RuneQuest Glorantha. Supports movement speeds for RQG",
+  "version": "1.1",
   "minimumCoreVersion" : "9.238",
   "compatibleCoreVersion":"9.266",
   "author": "José E. Lozano (Viriato139ac), Geike",
