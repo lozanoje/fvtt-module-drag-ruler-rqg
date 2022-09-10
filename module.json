@@ -13,8 +13,6 @@
       "flags": {}
     }
   ],
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
   "esmodules": [
     "scripts/hookSpeedProvider.js"
   ],
@@ -33,8 +31,8 @@
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": 10,
+    "verified": "10.285"
   },
   "packs": []
 }
