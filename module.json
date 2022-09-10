@@ -1,22 +1,40 @@
 {
-  "name": "fvtt-module-drag-ruler-rqg",
   "title": "RuneQuest Glorantha - Drag Ruler Integration",
   "description": "Drag Ruler Integration for RuneQuest Glorantha. Supports movement speeds for RQG",
-  "version": "1.1",
-  "minimumCoreVersion" : "9.238",
-  "compatibleCoreVersion":"9.266",
-  "author": "José E. Lozano (Viriato139ac), Geike",
-  "scripts": [
-    "scripts/hookSpeedProvider.js"
-  ],
-  "dependencies": [
-    {
-      "name": "drag-ruler",
-      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json"
-    }
-  ],
-  "system": "rqg",
+  "version": "1.2",
+  "languages": [],
+  "styles": [],
   "url": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg",
   "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-drag-ruler-rqg/main/module.json",
-  "download": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg/archive/refs/heads/main.zip"
+  "download": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg/archive/refs/heads/main.zip",
+  "id": "fvtt-module-drag-ruler-rqg",
+  "authors": [{
+      "name": "@Viriato139ac#0342",
+      "flags": {}
+    }
+  ],
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "esmodules": [
+    "scripts/hookSpeedProvider.js"
+  ],
+  "relationships": {
+    "requires": [{
+        "id": "drag-ruler",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [{
+        "id": "rqg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": []
 }
