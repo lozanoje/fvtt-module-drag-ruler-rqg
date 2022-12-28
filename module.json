@@ -1,22 +1,37 @@
 {
-  "name": "fvtt-module-drag-ruler-rqg",
-  "title": "RuneQuest Glorantha - Drag Ruler Integration",
-  "description": "Drag Ruler Integration for RuneQuest Glorantha. Supports movement speeds for RQG",
-  "version": "1.1",
-  "minimumCoreVersion" : "9.238",
-  "compatibleCoreVersion":"9.266",
-  "author": "José E. Lozano (Viriato139ac), Geike",
-  "scripts": [
-    "scripts/hookSpeedProvider.js"
-  ],
-  "dependencies": [
-    {
-      "name": "drag-ruler",
-      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json"
-    }
-  ],
-  "system": "rqg",
-  "url": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg",
-  "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-drag-ruler-rqg/main/module.json",
-  "download": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg/archive/refs/heads/main.zip"
+    "id": "fvtt-module-drag-ruler-rqg",
+    "title": "RuneQuest Glorantha - Drag Ruler Integration",
+    "description": "Drag Ruler Integration for RuneQuest Glorantha. Supports movement speeds for RQG",
+    "version": "2.0",
+    "styles": [],
+    "authors": [{
+            "name": "José E. Lozano",
+            "discord": "@Viriato139ac#0342",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "scripts/hookSpeedProvider.js"
+    ],
+    "relationships": {
+        "systems": [{
+                "id": "rqg",
+                "type": "system",
+                "compatibility": "2.0.0"
+            }
+        ],
+        "requires": [{
+                "id": "drag-ruler",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": 10,
+        "verified": "10.291"
+    },
+    "url": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg",
+    "manifest": "https://raw.githubusercontent.com/lozanoje/fvtt-module-drag-ruler-rqg/main/module.json",
+    "download": "https://github.com/lozanoje/fvtt-module-drag-ruler-rqg/archive/refs/heads/main.zip"
 }
